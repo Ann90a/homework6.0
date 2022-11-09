@@ -49,7 +49,7 @@ public class Main {
         } else if (deliveryDistance > 20 && deliveryDistance < 60) {
             System.out.println("Потребуется дней: " + (deliveryDays + 1));
         } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
-            System.out.println("Потребуется дней: " + (deliveryDays + 2));
+            System.out.println("Потребуется дней - " + (deliveryDays + 2));
         }
 
 
