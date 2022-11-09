@@ -31,6 +31,15 @@ public class Main {
 
         }
 
+        //задание 3
+
+        int year = 2021;
+        if (year % 4 != 0 || year % 100 == 0 && year % 400 != 0) {
+            System.out.println("Год явлется обычным");
+        } else {
+            System.out.println("Год явлется весокосным");
+        }
+
 
     }
 }
